@@ -1,4 +1,5 @@
-Trabalho final da disciplina Programação e Desenvolvimento de Software - UFMG 2022/1
+Trabalho final da disciplina Programação e Desenvolvimento de Software || - UFMG 2022/1
+
 Sistema de Gerenciamento de Fluxo de Produtos em um supermecado
 
 User Stories:
