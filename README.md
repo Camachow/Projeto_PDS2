@@ -1,6 +1,6 @@
 Trabalho final da disciplina Programação e Desenvolvimento de Software || - UFMG 2022/1
 
-Sistema de Gerenciamento de Fluxo de Produtos em um supermecado
+Sistema de Gerenciamento de Fluxo de Produtos em um supermercado
 
 User Stories:
 
@@ -20,4 +20,4 @@ CLIENTE
 
 FUNCIONÁRIO
 
--Eu como funcionario quero poder incrementar o valor do lucro atual do supermercado, para atualizar este valor a cada venda de produtos realizada e contabilizada por mim. 
+-Eu como funcionário quero poder incrementar o valor do lucro atual do supermercado, para atualizar este valor a cada venda de produtos realizada e contabilizada por mim. 
