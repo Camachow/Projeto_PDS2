@@ -1,6 +1,8 @@
 #ifndef FUNCIONARIO_H
 #define FUNCIONARIO_H
 
+#include <string>
+
 using namespace std;
 
 class Funcionario {
