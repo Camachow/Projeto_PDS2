@@ -1,4 +1,5 @@
 #include "funcionario.h"
+#include <string>
 
 Funcionario::Funcionario(string nome, int id) {
 
