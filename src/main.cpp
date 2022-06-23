@@ -1,4 +1,9 @@
-int main (){
+#include "funcionario.h"
+#include <iostream>
 
-    return 0;
-}
+using namespace std;
+
+int main() {
+    Funcionario f = Funcionario("João", 1);
+    cout << f.getNome() << endl;
+
