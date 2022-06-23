@@ -1,0 +1,466 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Thu Jun 23 01:31:08 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 19)
+OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
+# makefile (from 'Makefile', line 18)
+SRC = $(wildcard $(SRCDIR)/*$(EXT))
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(pat 
+subst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/Evila/OneDrive/Documentos/PDS2/ProjetoGit/Projeto_PDS2
+# default
+SHELL := sh.exe
+# makefile (from 'Makefile', line 22)
+RM = rm
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"195456cb6bc5e7dd989215cd334fb359.pt-br","_translationsConfigFile":"C:\\Users\\Evila\\AppData\\Roaming\\Code\\clp\\195456cb6bc5e7dd989215cd334fb359.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\Evila\\AppData\\Roaming\\Code\\clp\\195456cb6bc5e7dd989215cd334fb359.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\Evila\\AppData\\Roaming\\Code\\clp\\195456cb6bc5e7dd989215cd334fb359.pt-br\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\Evila\\AppData\\Roaming\\Code\\clp\\195456cb6bc5e7dd989215cd334fb359.pt-br\\corrupted.info","_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\Evila\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'funcionario.d', line 1)
+MAKEFILE_LIST :=  Makefile main.d produto.d funcionario.d
+# environment
+TMP = C:\Users\Evila\AppData\Local\Temp
+# makefile (from 'Makefile', line 8)
+CXXFLAGS = -std=c++11 -Wall
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'Makefile', line 25)
+DEL = del
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-15275255-ce3c-425f-ad5f-b832eb96ef1c-sock
+# environment
+VSCODE_CWD = C:\Users\Evila\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Users\Evila\anaconda3;C:\Users\Evila\anaconda3\Library\mingw-w64\bin;C:\Users\Evila\anaconda3\Library\usr\bin;C:\Users\Evila\anaconda3\Library\bin;C:\Users\Evila\anaconda3\Scripts;C:\Users\Evila\AppData\Local\Microsoft\WindowsApps;C:\Users\Evila\AppData\Local\Programs\Microsoft VS Code\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# makefile (from 'Makefile', line 20)
+DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Evila
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 9)
+LDFLAGS = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# makefile (from 'Makefile', line 14)
+SRCDIR = src
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14252_XBPSYKCMRXSWESNV
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = LAPTOP-H3HPSLAF
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Diego
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Evila\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 23)
+DELOBJ = $(OBJ)
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\LAPTOP-H3HPSLAF
+# environment
+ONEDRIVECONSUMER = C:\Users\Evila\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = LAPTOP-H3HPSLAF
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 12)
+APPNAME = Projeto_final
+# makefile (from 'Makefile', line 7)
+CC = g++
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\Evila\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432  
+= AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\1a4a2315d56e2126648b7b0be3a309cf-1.68.1-main-sock
+# makefile (from 'Makefile', line 13)
+EXT = .cpp
+# environment
+HOMEPATH = \Users\Evila
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Evila\AppData\Roaming
+# environment
+TEMP = C:\Users\Evila\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 15)
+OBJDIR = obj
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 27)
+WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0a
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# environment
+ADSK_CLM_WPAD_PROXY_CHECK = FALSE
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 26)
+EXE = .exe
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 14252
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-H3HPSLAF
+# variable set hash-table stats:
+# Load=106/1024=10%, Rehash=0, Collisions=18/159=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\Evila\anaconda3\Library\bin (key C:/Users/Evila/anaconda3/Library/bin, mtime 1631410887): 431 files, no impossibilities.
+# C:\Users\Evila\anaconda3\Scripts (key C:/Users/Evila/anaconda3/Scripts, mtime 1631410886): 324 files, no impossibilities.
+# C:\Users\Evila\anaconda3\Library\mingw-w64\bin (key C:/Users/Evila/anaconda3/Library/mingw-w64/bin, mtime 1631410685): 15 files, no impossibilities.
+# C:\windows\System32\WindowsPowerShell\v1.0\ (key C:/windows/System32/WindowsPowerShell/v1.0/, mtime 1642377288): 31 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1643905394): 155 files, no impossibilities.
+# . (key c:/Users/Evila/OneDrive/Documentos/PDS2/ProjetoGit/Projeto_PDS2, mtime 1655958522): 11 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath  
+(key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1556074206): 5 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\ (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/, mtime 1521646190): 8 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1655957807): 8 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1521646039): 10 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1628389643): 128 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1521646187): 4 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1554400506): 134 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files/Intel/Intel(R) Management Engine Components/IPT, mtime 1521646187): 5 files, no impossibilities.
+# C:\Users\Evila\AppData\Local\Microsoft\WindowsApps (key C:/Users/Evila/AppData/Local/Microsoft/WindowsApps, mtime 1655952901): 43 files, no impossibilities.
+# C:\windows (key C:/windows, mtime 1554400506): 134 files, no impossibilities.
+# C:\Users\Evila\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Evila/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1655406599): 4 files, no impossibilities.
+# C:\windows\System32\Wbem (key C:/windows/System32/Wbem, mtime 1643905394): 155 files, no impossibilities.
+# src (key c:/Users/Evila/OneDrive/Documentos/PDS2/ProjetoGit/Projeto_PDS2/src, mtime 1655958495): 5 files, no impossibilities.
+# C:\Users\Evila\anaconda3 (key C:/Users/Evila/anaconda3, mtime 1631411018): 90 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1642377288): 31 files, no impossibilities.
+# C:\windows\system32 (key C:/windows/system32, mtime 1655472333): 2932 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\ (key C:/Program Files/Intel/Intel(R) Management Engine Components/iCLS/, mtime 1521646189): 11 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1521646187): 10 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT, mtime 1521646187): 6 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\Users\Evila\anaconda3\Library\usr\bin: could not be stat'd.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1655472333): 2932 files, no impossibilities.
+
+# 7622 files, no impossibilities in 28 directories.
+
+# Implicit Rules
+
+%.d: src/%.cpp
+#  recipe to execute (from 'Makefile', line 41):
+	@$(CPP 
+) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+obj/%.o: src/%.cpp
+#  recipe to execute (from 'Makefile', line 48):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+src/funcionario.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 01:28:15
+#  File has been updated.
+#  Successfully updated.
+
+all: Projeto_final
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+.PHONY: clean cleandep cleanw cleandepw
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/produto.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 01:28:15
+#  File has been updated.
+#  Successfully updated.
+
+obj/main.o: src/main.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/main.o
+# automatic
+# % := 
+# automatic
+# * := main
+# automatic
+# + := src/main.cpp
+# automatic
+# | := 
+# automatic
+# < := src/main.cpp
+# automatic
+# ^ := src/main.cpp
+# automatic
+# ? := src/main.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
+#  recipe to execute (from 'Makefile', line 48):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 01:28:15
+#  File has been updated.
+#  Successfully updated.
+
+cleanw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 65):
+	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
+
+Projeto_final: obj/main.o obj/produto.o obj/funcionario.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'Makefile', line 37):
+	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+
+main.d: src/main.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-06-23 01:31:07
+#  File has been updated.
+#  Successfully upd 
+ated.
+#  recipe to execute (from 'Makefile', line 41):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/funcionario.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cleandep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 59):
+	$(RM) $(DEP)
+
+cleandepw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+	$(DEL) $(DEP)
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
+
+# Not a target:
+obj/produto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-23 01:28:15
+#  File has been updated.
+#  Successfully updated.
+
+produto.d: src/produto.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'produto'
+#  Last modified 2022-06-23 01:31:07
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 41):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+funcionario.d: src/funcionario.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'funcionario'
+#  Last modified 2022-06-23 01:31:06
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 41):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# files hash-table stats:
+# Load=19/1024=2%, Rehash=0, Collisions=0/61=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 8 (5) / strings = 4281 / storage = 65297 B / avg = 15 B
+# current buf: size = 8174 B / used = 8150 B / count = 483 / avg = 16 B
+# other used: total = 57123 B / count = 3798 / avg = 15 B
+# other free: total = 71 B / max = 18 B / min = 1 B / avg = 10 B
+
+# strcache performance: lookups = 7706 / hit rate = 44%
+# hash-table stats:
+# Load=4281/8192=52%, Rehash=0, Collisions=2998/7706=39%
+# Finished Ma 
+ke data base on Thu Jun 23 01:31:08 2022
+
+ 
