@@ -1,7 +1,7 @@
 #ifndef CLIENTE_H
 #define CLIENTE_H
-#include "Supermercado.hpp"
-#include "Produto.hpp"
+#include "supermercado.h"
+#include "produto.h"
 
 using namespace std;
 

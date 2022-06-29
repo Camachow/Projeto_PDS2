@@ -7,10 +7,16 @@ Funcionario::Funcionario(string nome, int id) {
     _id = id;
 }
 
-int Funcionario::getNome() {
+string Funcionario::getNome() {
     return _nome;
 }
 
 void Funcionario::setNome(string nome) {
     _nome = nome;
+}
+
+string Funcionario::emitirNotaFiscal(Cliente cliente) {
+    return 0;
+
+
 }

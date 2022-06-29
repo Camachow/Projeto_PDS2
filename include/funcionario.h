@@ -1,5 +1,6 @@
 #ifndef FUNCIONARIO_H
 #define FUNCIONARIO_H
+#include "cliente.h"
 
 #include <string>
 
@@ -14,8 +15,7 @@ class Funcionario {
         Funcionario(string nome, int id);
         string getNome();
         void setNome(string nome);
-        string emitirNotaFiscal();
-
+        string emitirNotaFiscal(Cliente cliente);   
 };
 
 

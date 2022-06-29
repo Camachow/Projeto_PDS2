@@ -1,6 +1,6 @@
 #ifndef GERENTE_H
 #define GERENTE_H
-#include "Supermercado.hpp"
+#include "supermercado.h"
 
 #include <string>
 
