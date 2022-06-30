@@ -1,4 +1,4 @@
-#include "funcionario.h"
+#include "../include/funcionario.h"
 #include <string>
 
 Funcionario::Funcionario(string nome, int id) {
@@ -17,6 +17,4 @@ void Funcionario::setNome(string nome) {
 
 string Funcionario::emitirNotaFiscal(Cliente cliente) {
     return 0;
-
-
 }

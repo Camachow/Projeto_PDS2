@@ -1,5 +1,5 @@
-#ifndef PROD_PDS2
-#define PROD_PDS2
+#ifndef PROD_H
+#define PROD_H
 
 #define QNT_MIN 50
 #define QNT_MAX 100
@@ -17,8 +17,7 @@ class Produto {
 
     public:
         Produto(string nome, int quantidade, float preco);
-        ~Produto();
-}
+};
 
 
 #endif

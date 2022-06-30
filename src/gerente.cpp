@@ -1,5 +1,5 @@
-#include "gerente.h"
-#include "supermercado.h"
+#include "../include/gerente.h"
+#include "../include/supermercado.h"
 
 #include <string>
 

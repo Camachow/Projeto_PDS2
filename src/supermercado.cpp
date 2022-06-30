@@ -1,5 +1,5 @@
-#include "supermercado.h"
-#include "produto.h"
+#include "../include/supermercado.h"
+#include "../include/produto.h"
 #include <vector>
 
 using namespace std;
@@ -12,9 +12,9 @@ void Supermercado::insere_produto(Produto p){
     _lista_produtos.push_back(p);
 }
 
-void imprime_lista_produtos(){
+/* void imprime_lista_produtos(){
     for(Produto p: _lista_produtos){
         _lista_produtos.push_back(p);
         }
 
-}
+} */
