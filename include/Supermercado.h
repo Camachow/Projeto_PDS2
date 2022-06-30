@@ -2,7 +2,7 @@
 #define SUPERMERCADO_H
 
 #include <vector> 
-#include "produto.h"
+#include "Produto.h"
 
 using namespace std;
 
