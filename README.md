@@ -18,8 +18,12 @@ CLIENTE
 
 -Eu como cliente quero ter acesso a uma lista promocional, para saber quais produtos estão sendo vendidos com preços abaixo do normal.
 
-FUNCIONÁRIO
+CAIXA
 
--Eu como funcionário quero poder incrementar o valor do lucro atual do supermercado, para atualizar este valor a cada venda de produtos realizada e contabilizada por mim.
+-Eu como caixa quero poder incrementar o valor do lucro atual do supermercado, para atualizar este valor a cada venda de produtos realizada e contabilizada por mim.
 
--Eu como funcionário quero poder emitir uma nota fiscal após cada compra, para entregar ao cliente o "documento" que consta o valor de cada produto comprado, as quantidades e o valor total da compra.
+-Eu como caixa quero poder emitir uma nota fiscal após cada compra, para entregar ao cliente o "documento" que consta o valor de cada produto comprado, as quantidades e o valor total da compra.
+
+FUNCIONARIO
+
+-Funcionario é uma superclasse que servirá de herança para a classe caixa e gerente, fazendo essas classes herdarem por exemplo o nome e id.
