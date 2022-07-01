@@ -1,4 +1,4 @@
-#include "../include/funcionario.h"
+#include "../include/caixa.h"
 #include <iostream>
 
 using namespace std;

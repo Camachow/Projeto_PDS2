@@ -1,4 +1,4 @@
-#include "funcionario.h"
+#include "../include/funcionario.h"
 #include <iostream>
 
 #include <string>

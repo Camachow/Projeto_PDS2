@@ -1,4 +1,4 @@
-#include "../include/funcionario.h"
+#include "../include/caixa.h"
 #include <string>
 
 Caixa::Caixa(string nome, int id) : Funcionario(nome, id) {

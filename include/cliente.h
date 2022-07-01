@@ -3,6 +3,8 @@
 #include "supermercado.h"
 #include "produto.h"
 
+#include <string>
+
 using namespace std;
 
 class Cliente{

@@ -3,6 +3,8 @@
 
 #include <string>
 
+using namespace std;
+
 class Funcionario {
     protected:
         string _nome;
@@ -15,3 +17,5 @@ class Funcionario {
         void setNome(string nome);
         void setId(int id);
 };
+
+#endif
