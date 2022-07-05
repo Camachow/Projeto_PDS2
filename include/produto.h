@@ -11,12 +11,15 @@ using namespace std;
 class Produto {
     private:
         string _nome;
-        int _quantidade;
+        int _qtd;
         float _preco;
         bool _promocao;
 
     public:
         Produto(string nome, int quantidade, float preco);
+        string retorna_nome();
+        float retorna_preco();
+        void atualiza_quantidade(int qtd);
 };
 
 
