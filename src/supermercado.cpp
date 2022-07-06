@@ -25,25 +25,34 @@ void Supermercado::imprime_lista_promocional(){
     }
 }
 
-void Supermercado::produto_comprado(int qnt, string nome_produto, float preco){
+int Supermercado::produto_comprado(int qtd, string nome_produto, float preco){
   if(_lista_produtos.empty() == false){ 
     for(auto it=_lista_produtos.begin(); it <=_lista_produtos.end(); it++){
       if(it->retorna_nome() == nome_produto){
-        it->atualiza_quantidade(qnt);
-        _saldo_caixa += qnt*(it->retorna_preco());
+        it->atualiza_quantidade(qtd);
+        _saldo_caixa += qtd*(it->retorna_preco());
       }
     }
   }
   if(_lista_promocional.empty() == false){
       for(auto it=_lista_promocional.begin(); it <=_lista_promocional.end(); it++){
       if(it->retorna_nome() == nome_produto){
-        it->atualiza_quantidade(qnt);
-        _saldo_caixa += qnt*(it->retorna_preco());
+        it->atualiza_quantidade(qtd);
+        _saldo_caixa += qtd*(it->retorna_preco());
       }
     }
   }
+  return 0;
   
 }// se as listas estiverem vazias, essa funcao nao faz nada
  //se nao tiver esses "if" verificando se elas estao vazias,
  // a funcao pode dar erro
+
+bool Supermercado::prod_comprado() {
+  if(_lista_produtos.empty() == false) 
+    return true;
+
+  else
+    return false;
+}
 

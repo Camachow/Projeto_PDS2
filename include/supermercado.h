@@ -18,9 +18,9 @@ class Supermercado{
       void insere_produto(Produto p); //coloca produto novo na lista
       void imprime_lista_produtos();
       void imprime_lista_promocional();
-      void produto_comprado(int qnt, string nome_produto,
+      int produto_comprado(int qtd, string nome_produto,
                             float preco);   //funcao de atualizacao quando algum produto for comprado
-
+      bool prod_comprado();
 };
 
 #endif
