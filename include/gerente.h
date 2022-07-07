@@ -17,6 +17,8 @@ class Gerente : public Funcionario{
     public:
       Gerente(string nome, int id, Supermercado *s );
       float consulta_saldo_caixa();
+      void atualiza_promocoes();
+      void atualiza_estoque();
 
       
 };

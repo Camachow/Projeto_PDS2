@@ -16,11 +16,17 @@ class Supermercado{
     public:
       float retorna_saldo_caixa();
       void insere_produto(Produto p); //coloca produto novo na lista
+      void insere_produto_promocional(Produto p); //coloca produto novo na lista de promocional
+      void remove_produto(Produto p);//remove o produto da lista q ele estiver
       void imprime_lista_produtos();
       void imprime_lista_promocional();
       int produto_comprado(int qtd, string nome_produto,
                             float preco);   //funcao de atualizacao quando algum produto for comprado
       bool prod_comprado();
+      void verifica_promocoes(); //verifica produtos acima do max,
+                                //coloca esses na promocao,
+                                //e retira da promocao se estiver abaixo de 70 unidades
+      void verifica_estoque(); //aumenta para 70 unidades produtos abaixo do MIN
 };
 
 #endif
