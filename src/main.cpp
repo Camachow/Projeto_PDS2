@@ -1,30 +1,149 @@
-#include "../include/caixa.h"
-#include "../include/gerente.h"
-#include "../include/supermercado.h"
-#include "../include/produto.h"
+#include "produto.h"
+#include "supermercado.h"
+#include "funcionario.h"
+#include "gerente.h"
+#include "caixa.h"
+#include "produto.h"
+#include "cliente.h"
 #include <iostream>
+#include <vector>
+#include <string>
 
-using namespace std;
+int main(){
+  string a, b, c, d, e;
+  a="chocolate";
+  b="leite";
+  c="kitkat";
+  d="nescau";
+  e="toddy";
+ cout<<"funcionou"<<endl;
+  Produto prod1= Produto(a, 100, 8.5);
+  Produto prod2= Produto(b, 100, 4);
+  Produto prod3= Produto(c, 45, 2.65);
+  Produto prod4= Produto(d, 150, 12.75);
+  Produto prod5= Produto(e, 120, 11.90);
 
-int main() {
-    Caixa c = Caixa("Joao", 1);
-    cout << c.getNome() << endl;
+  cout<<"funcionou"<<endl;
+  Supermercado epa;
+  epa.insere_produto(prod1);
+  epa.insere_produto(prod2);
+  epa.insere_produto(prod3);
+  epa.insere_produto_promocional(prod4);
+  epa.insere_produto_promocional(prod5);
 
-    Produto *p = new Produto("Cerveja", 1, 1.5); //tive que colocar produto como ponteiro para funcionar
+    cout<<"funcionou"<<endl;
+  
+  Cliente larissa=Cliente("larissa");
+  //larissa.comprar_produto(prod1, &epa, 10);
+  //larissa.comprar_produto(prod3, &epa, 3);
+  cout<<"funcionou"<<endl;
+  
+  string nome_gerente, nome_cliente, nome_caixa;
+  int aux=0, loop=1, acao=0;
 
-    Supermercado *s = new Supermercado(); //supermercado tem que ser um ponteiro para que seus métodos
-                                            //e funções funcionem
+  cout<< endl << "Selecione seu tipo de usuario: " <<endl;
+  cout<< "1-Gerente ; 2-Cliente; 3-caixa" <<endl;
+  cout << "Digite o numero e pressione Enter: ";
+  cin>> aux;
+  
+
+  if(aux==1){  //Gerente
+    cout<< "Digite seu nome: ";
+    cin >> nome_gerente;
+    Gerente g=Gerente(nome_gerente, 44, &epa);
+     while(loop==1){
+      cout << endl<<"O que deseja fazer "<<nome_gerente<< "?";
+      cout<<endl<< "1-Consultar saldo no caixa do supermercado";
+      cout<<endl<<"2-Ver a quantidade de produtos no estoque";
+      cout<<endl<<"3-Atualizar o estoque";
+      cout<<endl<<"Digite o numero: ";
+      cin >> acao;
+       if(acao==1){
+        cout<<endl; 
+         cout<<"O saldo do supermercado eh: "; 
+         cout<< g.consulta_saldo_caixa()<< endl;
+       }else if(acao==2){
+         cout<<endl;
+         g.ver_qtd_produtos();
+         cout<<endl;
+       }else if(acao==3){
+         cout<<endl;
+         g.atualiza_estoque();
+         g.ver_qtd_produtos();
+         cout<< endl<<"Estoque atualizado !" << endl;
+       }
+     }
+  
+    }else if(aux==2){ //Cliente
+     cout<< "Digite seu nome: ";
+     cin >> nome_cliente; 
+     Cliente c= Cliente(nome_cliente);  
+     while(loop==1){
+      cout << endl<<"O que deseja fazer "<<nome_cliente<< "?";
+      cout<<endl<< "1-Ver lista de produtos";
+      cout<<endl<<"2-Ver lista de produtos em promocao";
+      cout<<endl<<"3-Comprar um produto";
+      cout<<endl<<"Digite o numero: ";
+      cin >> acao;
+       if(acao==1){
+         cout<< endl;
+         c.ver_lista_produtos(epa);
+         cout<<endl;
+       }else if(acao==2){
+         cout<<endl;
+         c.ver_lista_promocional(epa);
+         cout<<endl;
+       }else if(acao==3){
+         string produto;
+         int qnt=0;
+         cout<< endl;
+         cout<< "Digite o nome do produto que quer comprar: ";
+         cin>> produto;
+         cout<<endl;
+         cout<< "Digite quantas unidades quer comprar: ";
+         cin>>qnt;
+         if(prod1.retorna_nome()==produto){
+           float gasto= qnt*prod1.retorna_preco();
+           cout<<endl;
+           c.comprar_produto(prod1, &epa, qnt);
+           cout<< "Compra efetuada!";
+           cout<< "Voce gastou "<<gasto<< "reais."<<endl;
+         }else if(prod2.retorna_nome()==produto){
+           float gasto= qnt*prod2.retorna_preco();
+           cout<<endl;
+           c.comprar_produto(prod2, &epa, qnt);
+           cout<< "Compra efetuada!";
+           cout<< "Voce gastou "<<gasto<< "reais."<<endl;
+           
+         }else if(prod3.retorna_nome()==produto){
+           float gasto= qnt*prod3.retorna_preco();
+           cout<<endl;
+           c.comprar_produto(prod3, &epa, qnt);
+           cout<< "Compra efetuada!";
+           cout<< "Voce gastou "<<gasto<< "reais."<<endl;
+         }else if(prod4.retorna_nome()==produto){
+           float gasto= qnt*prod4.retorna_preco();
+           cout<<endl;
+           c.comprar_produto(prod4, &epa, qnt);
+           cout<< "Compra efetuada!";
+           cout<< "Voce gastou "<<gasto<< "reais."<<endl;
+         }else if(prod5.retorna_nome()==produto){
+           float gasto= qnt*prod5.retorna_preco();
+           cout<<endl;
+           c.comprar_produto(prod5, &epa, qnt);
+           cout<< "Compra efetuada!";
+           cout<< "Voce gastou "<<gasto<< "reais."<<endl;
+         }
+       }
+       
+     }
     
-    s->insere_produto(*p); //criei um produto p e inseri ele no supermercado s
-    s->imprime_lista_produtos(); //imprime a lista de produtos do supermercado s
-
-
-    Gerente g = Gerente("Gerente1", 1, s); //criei um gerente g 
-    cout << g.getNome() << endl;
-    cout << g.consulta_saldo_caixa() << endl;
-
-    cout << c.emitirNotaFiscal(*s, *p) << endl; //emitindo a nota fiscal de um supermercado s e um produto p
-    
-
+  }else if(aux==3){  //caixa
+     cout<< "Digite seu nome: ";
+     cin >> nome_caixa; 
+     Caixa caixa=Caixa(nome_caixa, 43);
+  }
+  
+  
+  return 0;
 }
-
