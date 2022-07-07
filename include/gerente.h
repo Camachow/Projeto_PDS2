@@ -19,6 +19,7 @@ class Gerente : public Funcionario{
       float consulta_saldo_caixa();
       void atualiza_promocoes();
       void atualiza_estoque();
+      void ver_qtd_produtos();
 
       
 };
