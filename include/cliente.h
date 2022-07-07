@@ -15,7 +15,7 @@ private:
 
 public:
    Cliente(string nome);
-   void comprar_produto(Produto p, Supermercado s, int quantidade);
+   void comprar_produto(Produto p, Supermercado s, int qtd);
 
 };
 #endif

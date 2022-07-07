@@ -20,6 +20,7 @@ class Produto {
         string retorna_nome();
         float retorna_preco();
         void atualiza_quantidade(int qtd);
+        int retorna_quantidade();
 };
 
 
