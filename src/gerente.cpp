@@ -24,3 +24,8 @@ void Gerente::atualiza_promocoes() {
 void Gerente::atualiza_estoque() {
     _supermercado_referente->verifica_estoque();
 }
+
+void Gerente::ver_qtd_produtos() {
+    _supermercado_referente->imprime_lista_produtos();
+    _supermercado_referente->imprime_lista_promocional();
+}

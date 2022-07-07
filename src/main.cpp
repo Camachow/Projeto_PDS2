@@ -1,10 +1,9 @@
-#include "produto.h"
-#include "supermercado.h"
-#include "funcionario.h"
-#include "gerente.h"
-#include "caixa.h"
-#include "produto.h"
-#include "cliente.h"
+#include "../include/produto.h"
+#include "../include/supermercado.h"
+#include "../include/funcionario.h"
+#include "../include/gerente.h"
+#include "../include/caixa.h"
+#include "../include/cliente.h"
 #include <iostream>
 #include <vector>
 #include <string>
