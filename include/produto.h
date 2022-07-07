@@ -19,7 +19,8 @@ class Produto {
         Produto(string nome, int quantidade, float preco);
         string retorna_nome();
         float retorna_preco();
-        void atualiza_quantidade(int qtd);
+        void decrementa_quantidade(int qtd);
+        void incrementa_quantidade(int qtd);
         int retorna_quantidade();
 };
 

@@ -15,8 +15,12 @@ float Produto::retorna_preco() {
     return _preco;
 }
 
-void Produto::atualiza_quantidade(int qtd) {
+void Produto::decrementa_quantidade(int qtd) {
     _qtd -= qtd;
+}
+
+void Produto::incrementa_quantidade(int qtd) {
+    _qtd += qtd;
 }
 
 int Produto::retorna_quantidade() {
