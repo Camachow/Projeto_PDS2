@@ -1,0 +1,726 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\comment begin body}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refência do Namespace doctest::detail::assertType\par \pard\plain 
+{\tc\tcl2 \v doctest::detail::assertType}
+{\xe \v doctest::detail::assertType}
+{\bkmkstart AAAAAAABAZ}
+{\bkmkend AAAAAAABAZ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Enum} \{ {\b is_warn} = 1
+, {\b is_check} = 2
+, {\b is_require} = 4
+, {\b is_throws} = 8
+, {\b is_throws_as} = 16
+, {\b is_nothrow} = 32
+, {\b is_fast} = 64
+, {\b is_false} = 128
+, {\b is_unary} = 256
+, {\b is_eq} = 512
+, {\b is_ne} = 1024
+, {\b is_lt} = 2048
+, {\b is_gt} = 4096
+, {\b is_ge} = 8192
+, {\b is_le} = 16384
+, {\b DT_WARN} = is_warn
+, {\b DT_CHECK} = is_check
+, {\b DT_REQUIRE} = is_require
+, {\b DT_WARN_FALSE} = is_false | is_warn
+, {\b DT_CHECK_FALSE} = is_false | is_check
+, {\b DT_REQUIRE_FALSE} = is_false | is_require
+, {\b DT_WARN_THROWS} = is_throws | is_warn
+, {\b DT_CHECK_THROWS} = is_throws | is_check
+, {\b DT_REQUIRE_THROWS} = is_throws | is_require
+, {\b DT_WARN_THROWS_AS} = is_throws_as | is_warn
+, {\b DT_CHECK_THROWS_AS} = is_throws_as | is_check
+, {\b DT_REQUIRE_THROWS_AS} = is_throws_as | is_require
+, {\b DT_WARN_NOTHROW} = is_nothrow | is_warn
+, {\b DT_CHECK_NOTHROW} = is_nothrow | is_check
+, {\b DT_REQUIRE_NOTHROW} = is_nothrow | is_require
+, {\b DT_WARN_EQ} = is_eq | is_warn
+, {\b DT_CHECK_EQ} = is_eq | is_check
+, {\b DT_REQUIRE_EQ} = is_eq | is_require
+, {\b DT_WARN_NE} = is_ne | is_warn
+, {\b DT_CHECK_NE} = is_ne | is_check
+, {\b DT_REQUIRE_NE} = is_ne | is_require
+, {\b DT_WARN_GT} = is_gt | is_warn
+, {\b DT_CHECK_GT} = is_gt | is_check
+, {\b DT_REQUIRE_GT} = is_gt | is_require
+, {\b DT_WARN_LT} = is_lt | is_warn
+, {\b DT_CHECK_LT} = is_lt | is_check
+, {\b DT_REQUIRE_LT} = is_lt | is_require
+, {\b DT_WARN_GE} = is_ge | is_warn
+, {\b DT_CHECK_GE} = is_ge | is_check
+, {\b DT_REQUIRE_GE} = is_ge | is_require
+, {\b DT_WARN_LE} = is_le | is_warn
+, {\b DT_CHECK_LE} = is_le | is_check
+, {\b DT_REQUIRE_LE} = is_le | is_require
+, {\b DT_WARN_UNARY} = is_unary | is_warn
+, {\b DT_CHECK_UNARY} = is_unary | is_check
+, {\b DT_REQUIRE_UNARY} = is_unary | is_require
+, {\b DT_WARN_UNARY_FALSE} = is_false | is_unary | is_warn
+, {\b DT_CHECK_UNARY_FALSE} = is_false | is_unary | is_check
+, {\b DT_REQUIRE_UNARY_FALSE} = is_false | is_unary | is_require
+, {\b DT_FAST_WARN_EQ} = is_fast | is_eq | is_warn
+, {\b DT_FAST_CHECK_EQ} = is_fast | is_eq | is_check
+, {\b DT_FAST_REQUIRE_EQ} = is_fast | is_eq | is_require
+, {\b DT_FAST_WARN_NE} = is_fast | is_ne | is_warn
+, {\b DT_FAST_CHECK_NE} = is_fast | is_ne | is_check
+, {\b DT_FAST_REQUIRE_NE} = is_fast | is_ne | is_require
+, {\b DT_FAST_WARN_GT} = is_fast | is_gt | is_warn
+, {\b DT_FAST_CHECK_GT} = is_fast | is_gt | is_check
+, {\b DT_FAST_REQUIRE_GT} = is_fast | is_gt | is_require
+, {\b DT_FAST_WARN_LT} = is_fast | is_lt | is_warn
+, {\b DT_FAST_CHECK_LT} = is_fast | is_lt | is_check
+, {\b DT_FAST_REQUIRE_LT} = is_fast | is_lt | is_require
+, {\b DT_FAST_WARN_GE} = is_fast | is_ge | is_warn
+, {\b DT_FAST_CHECK_GE} = is_fast | is_ge | is_check
+, {\b DT_FAST_REQUIRE_GE} = is_fast | is_ge | is_require
+, {\b DT_FAST_WARN_LE} = is_fast | is_le | is_warn
+, {\b DT_FAST_CHECK_LE} = is_fast | is_le | is_check
+, {\b DT_FAST_REQUIRE_LE} = is_fast | is_le | is_require
+, {\b DT_FAST_WARN_UNARY} = is_fast | is_unary | is_warn
+, {\b DT_FAST_CHECK_UNARY} = is_fast | is_unary | is_check
+, {\b DT_FAST_REQUIRE_UNARY} = is_fast | is_unary | is_require
+, {\b DT_FAST_WARN_UNARY_FALSE} = is_fast | is_false | is_unary | is_warn
+, {\b DT_FAST_CHECK_UNARY_FALSE} = is_fast | is_false | is_unary | is_check
+, {\b DT_FAST_REQUIRE_UNARY_FALSE} = is_fast | is_false | is_unary | is_require
+ \}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerações\par
+\pard\plain 
+{\xe \v Enum\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:Enum}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b doctest::detail::assertType::Enum}}}
+\par
+{\bkmkstart AAAAAAABBA}
+{\bkmkend AAAAAAABBA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Enumeradores:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v is_warn\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_warn}
+{\qr is_warn{\bkmkstart AAAAAAABBB}
+{\bkmkend AAAAAAABBB}
+\cell }{\cell }{\row }
+{\xe \v is_check\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_check}
+{\qr is_check{\bkmkstart AAAAAAABBC}
+{\bkmkend AAAAAAABBC}
+\cell }{\cell }{\row }
+{\xe \v is_require\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_require}
+{\qr is_require{\bkmkstart AAAAAAABBD}
+{\bkmkend AAAAAAABBD}
+\cell }{\cell }{\row }
+{\xe \v is_throws\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_throws}
+{\qr is_throws{\bkmkstart AAAAAAABBE}
+{\bkmkend AAAAAAABBE}
+\cell }{\cell }{\row }
+{\xe \v is_throws_as\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_throws_as}
+{\qr is_throws_as{\bkmkstart AAAAAAABBF}
+{\bkmkend AAAAAAABBF}
+\cell }{\cell }{\row }
+{\xe \v is_nothrow\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_nothrow}
+{\qr is_nothrow{\bkmkstart AAAAAAABBG}
+{\bkmkend AAAAAAABBG}
+\cell }{\cell }{\row }
+{\xe \v is_fast\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_fast}
+{\qr is_fast{\bkmkstart AAAAAAABBH}
+{\bkmkend AAAAAAABBH}
+\cell }{\cell }{\row }
+{\xe \v is_false\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_false}
+{\qr is_false{\bkmkstart AAAAAAABBI}
+{\bkmkend AAAAAAABBI}
+\cell }{\cell }{\row }
+{\xe \v is_unary\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_unary}
+{\qr is_unary{\bkmkstart AAAAAAABBJ}
+{\bkmkend AAAAAAABBJ}
+\cell }{\cell }{\row }
+{\xe \v is_eq\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_eq}
+{\qr is_eq{\bkmkstart AAAAAAABBK}
+{\bkmkend AAAAAAABBK}
+\cell }{\cell }{\row }
+{\xe \v is_ne\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_ne}
+{\qr is_ne{\bkmkstart AAAAAAABBL}
+{\bkmkend AAAAAAABBL}
+\cell }{\cell }{\row }
+{\xe \v is_lt\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_lt}
+{\qr is_lt{\bkmkstart AAAAAAABBM}
+{\bkmkend AAAAAAABBM}
+\cell }{\cell }{\row }
+{\xe \v is_gt\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_gt}
+{\qr is_gt{\bkmkstart AAAAAAABBN}
+{\bkmkend AAAAAAABBN}
+\cell }{\cell }{\row }
+{\xe \v is_ge\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_ge}
+{\qr is_ge{\bkmkstart AAAAAAABBO}
+{\bkmkend AAAAAAABBO}
+\cell }{\cell }{\row }
+{\xe \v is_le\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:is_le}
+{\qr is_le{\bkmkstart AAAAAAABBP}
+{\bkmkend AAAAAAABBP}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN}
+{\qr DT_WARN{\bkmkstart AAAAAAABBQ}
+{\bkmkend AAAAAAABBQ}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK}
+{\qr DT_CHECK{\bkmkstart AAAAAAABBR}
+{\bkmkend AAAAAAABBR}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE}
+{\qr DT_REQUIRE{\bkmkstart AAAAAAABBS}
+{\bkmkend AAAAAAABBS}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_FALSE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_FALSE}
+{\qr DT_WARN_FALSE{\bkmkstart AAAAAAABBT}
+{\bkmkend AAAAAAABBT}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_FALSE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_FALSE}
+{\qr DT_CHECK_FALSE{\bkmkstart AAAAAAABBU}
+{\bkmkend AAAAAAABBU}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_FALSE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_FALSE}
+{\qr DT_REQUIRE_FALSE{\bkmkstart AAAAAAABBV}
+{\bkmkend AAAAAAABBV}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_THROWS\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_THROWS}
+{\qr DT_WARN_THROWS{\bkmkstart AAAAAAABBW}
+{\bkmkend AAAAAAABBW}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_THROWS\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_THROWS}
+{\qr DT_CHECK_THROWS{\bkmkstart AAAAAAABBX}
+{\bkmkend AAAAAAABBX}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_THROWS\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_THROWS}
+{\qr DT_REQUIRE_THROWS{\bkmkstart AAAAAAABBY}
+{\bkmkend AAAAAAABBY}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_THROWS_AS\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_THROWS_AS}
+{\qr DT_WARN_THROWS_AS{\bkmkstart AAAAAAABBZ}
+{\bkmkend AAAAAAABBZ}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_THROWS_AS\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_THROWS_AS}
+{\qr DT_CHECK_THROWS_AS{\bkmkstart AAAAAAABCA}
+{\bkmkend AAAAAAABCA}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_THROWS_AS\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_THROWS_AS}
+{\qr DT_REQUIRE_THROWS_AS{\bkmkstart AAAAAAABCB}
+{\bkmkend AAAAAAABCB}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_NOTHROW\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_NOTHROW}
+{\qr DT_WARN_NOTHROW{\bkmkstart AAAAAAABCC}
+{\bkmkend AAAAAAABCC}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_NOTHROW\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_NOTHROW}
+{\qr DT_CHECK_NOTHROW{\bkmkstart AAAAAAABCD}
+{\bkmkend AAAAAAABCD}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_NOTHROW\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_NOTHROW}
+{\qr DT_REQUIRE_NOTHROW{\bkmkstart AAAAAAABCE}
+{\bkmkend AAAAAAABCE}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_EQ\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_EQ}
+{\qr DT_WARN_EQ{\bkmkstart AAAAAAABCF}
+{\bkmkend AAAAAAABCF}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_EQ\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_EQ}
+{\qr DT_CHECK_EQ{\bkmkstart AAAAAAABCG}
+{\bkmkend AAAAAAABCG}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_EQ\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_EQ}
+{\qr DT_REQUIRE_EQ{\bkmkstart AAAAAAABCH}
+{\bkmkend AAAAAAABCH}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_NE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_NE}
+{\qr DT_WARN_NE{\bkmkstart AAAAAAABCI}
+{\bkmkend AAAAAAABCI}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_NE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_NE}
+{\qr DT_CHECK_NE{\bkmkstart AAAAAAABCJ}
+{\bkmkend AAAAAAABCJ}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_NE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_NE}
+{\qr DT_REQUIRE_NE{\bkmkstart AAAAAAABCK}
+{\bkmkend AAAAAAABCK}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_GT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_GT}
+{\qr DT_WARN_GT{\bkmkstart AAAAAAABCL}
+{\bkmkend AAAAAAABCL}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_GT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_GT}
+{\qr DT_CHECK_GT{\bkmkstart AAAAAAABCM}
+{\bkmkend AAAAAAABCM}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_GT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_GT}
+{\qr DT_REQUIRE_GT{\bkmkstart AAAAAAABCN}
+{\bkmkend AAAAAAABCN}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_LT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_LT}
+{\qr DT_WARN_LT{\bkmkstart AAAAAAABCO}
+{\bkmkend AAAAAAABCO}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_LT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_LT}
+{\qr DT_CHECK_LT{\bkmkstart AAAAAAABCP}
+{\bkmkend AAAAAAABCP}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_LT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_LT}
+{\qr DT_REQUIRE_LT{\bkmkstart AAAAAAABCQ}
+{\bkmkend AAAAAAABCQ}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_GE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_GE}
+{\qr DT_WARN_GE{\bkmkstart AAAAAAABCR}
+{\bkmkend AAAAAAABCR}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_GE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_GE}
+{\qr DT_CHECK_GE{\bkmkstart AAAAAAABCS}
+{\bkmkend AAAAAAABCS}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_GE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_GE}
+{\qr DT_REQUIRE_GE{\bkmkstart AAAAAAABCT}
+{\bkmkend AAAAAAABCT}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_LE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_LE}
+{\qr DT_WARN_LE{\bkmkstart AAAAAAABCU}
+{\bkmkend AAAAAAABCU}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_LE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_LE}
+{\qr DT_CHECK_LE{\bkmkstart AAAAAAABCV}
+{\bkmkend AAAAAAABCV}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_LE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_LE}
+{\qr DT_REQUIRE_LE{\bkmkstart AAAAAAABCW}
+{\bkmkend AAAAAAABCW}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_UNARY\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_UNARY}
+{\qr DT_WARN_UNARY{\bkmkstart AAAAAAABCX}
+{\bkmkend AAAAAAABCX}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_UNARY\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_UNARY}
+{\qr DT_CHECK_UNARY{\bkmkstart AAAAAAABCY}
+{\bkmkend AAAAAAABCY}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_UNARY\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_UNARY}
+{\qr DT_REQUIRE_UNARY{\bkmkstart AAAAAAABCZ}
+{\bkmkend AAAAAAABCZ}
+\cell }{\cell }{\row }
+{\xe \v DT_WARN_UNARY_FALSE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_WARN_UNARY_FALSE}
+{\qr DT_WARN_UNARY_FALSE{\bkmkstart AAAAAAABDA}
+{\bkmkend AAAAAAABDA}
+\cell }{\cell }{\row }
+{\xe \v DT_CHECK_UNARY_FALSE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_CHECK_UNARY_FALSE}
+{\qr DT_CHECK_UNARY_FALSE{\bkmkstart AAAAAAABDB}
+{\bkmkend AAAAAAABDB}
+\cell }{\cell }{\row }
+{\xe \v DT_REQUIRE_UNARY_FALSE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_REQUIRE_UNARY_FALSE}
+{\qr DT_REQUIRE_UNARY_FALSE{\bkmkstart AAAAAAABDC}
+{\bkmkend AAAAAAABDC}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_WARN_EQ\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_WARN_EQ}
+{\qr DT_FAST_WARN_EQ{\bkmkstart AAAAAAABDD}
+{\bkmkend AAAAAAABDD}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_CHECK_EQ\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_CHECK_EQ}
+{\qr DT_FAST_CHECK_EQ{\bkmkstart AAAAAAABDE}
+{\bkmkend AAAAAAABDE}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_REQUIRE_EQ\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_REQUIRE_EQ}
+{\qr DT_FAST_REQUIRE_EQ{\bkmkstart AAAAAAABDF}
+{\bkmkend AAAAAAABDF}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_WARN_NE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_WARN_NE}
+{\qr DT_FAST_WARN_NE{\bkmkstart AAAAAAABDG}
+{\bkmkend AAAAAAABDG}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_CHECK_NE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_CHECK_NE}
+{\qr DT_FAST_CHECK_NE{\bkmkstart AAAAAAABDH}
+{\bkmkend AAAAAAABDH}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_REQUIRE_NE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_REQUIRE_NE}
+{\qr DT_FAST_REQUIRE_NE{\bkmkstart AAAAAAABDI}
+{\bkmkend AAAAAAABDI}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_WARN_GT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_WARN_GT}
+{\qr DT_FAST_WARN_GT{\bkmkstart AAAAAAABDJ}
+{\bkmkend AAAAAAABDJ}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_CHECK_GT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_CHECK_GT}
+{\qr DT_FAST_CHECK_GT{\bkmkstart AAAAAAABDK}
+{\bkmkend AAAAAAABDK}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_REQUIRE_GT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_REQUIRE_GT}
+{\qr DT_FAST_REQUIRE_GT{\bkmkstart AAAAAAABDL}
+{\bkmkend AAAAAAABDL}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_WARN_LT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_WARN_LT}
+{\qr DT_FAST_WARN_LT{\bkmkstart AAAAAAABDM}
+{\bkmkend AAAAAAABDM}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_CHECK_LT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_CHECK_LT}
+{\qr DT_FAST_CHECK_LT{\bkmkstart AAAAAAABDN}
+{\bkmkend AAAAAAABDN}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_REQUIRE_LT\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_REQUIRE_LT}
+{\qr DT_FAST_REQUIRE_LT{\bkmkstart AAAAAAABDO}
+{\bkmkend AAAAAAABDO}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_WARN_GE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_WARN_GE}
+{\qr DT_FAST_WARN_GE{\bkmkstart AAAAAAABDP}
+{\bkmkend AAAAAAABDP}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_CHECK_GE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_CHECK_GE}
+{\qr DT_FAST_CHECK_GE{\bkmkstart AAAAAAABDQ}
+{\bkmkend AAAAAAABDQ}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_REQUIRE_GE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_REQUIRE_GE}
+{\qr DT_FAST_REQUIRE_GE{\bkmkstart AAAAAAABDR}
+{\bkmkend AAAAAAABDR}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_WARN_LE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_WARN_LE}
+{\qr DT_FAST_WARN_LE{\bkmkstart AAAAAAABDS}
+{\bkmkend AAAAAAABDS}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_CHECK_LE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_CHECK_LE}
+{\qr DT_FAST_CHECK_LE{\bkmkstart AAAAAAABDT}
+{\bkmkend AAAAAAABDT}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_REQUIRE_LE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_REQUIRE_LE}
+{\qr DT_FAST_REQUIRE_LE{\bkmkstart AAAAAAABDU}
+{\bkmkend AAAAAAABDU}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_WARN_UNARY\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_WARN_UNARY}
+{\qr DT_FAST_WARN_UNARY{\bkmkstart AAAAAAABDV}
+{\bkmkend AAAAAAABDV}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_CHECK_UNARY\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_CHECK_UNARY}
+{\qr DT_FAST_CHECK_UNARY{\bkmkstart AAAAAAABDW}
+{\bkmkend AAAAAAABDW}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_REQUIRE_UNARY\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_REQUIRE_UNARY}
+{\qr DT_FAST_REQUIRE_UNARY{\bkmkstart AAAAAAABDX}
+{\bkmkend AAAAAAABDX}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_WARN_UNARY_FALSE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_WARN_UNARY_FALSE}
+{\qr DT_FAST_WARN_UNARY_FALSE{\bkmkstart AAAAAAABDY}
+{\bkmkend AAAAAAABDY}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_CHECK_UNARY_FALSE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_CHECK_UNARY_FALSE}
+{\qr DT_FAST_CHECK_UNARY_FALSE{\bkmkstart AAAAAAABDZ}
+{\bkmkend AAAAAAABDZ}
+\cell }{\cell }{\row }
+{\xe \v DT_FAST_REQUIRE_UNARY_FALSE\:doctest::detail::assertType}
+{\xe \v doctest::detail::assertType\:DT_FAST_REQUIRE_UNARY_FALSE}
+{\qr DT_FAST_REQUIRE_UNARY_FALSE{\bkmkstart AAAAAAABEA}
+{\bkmkend AAAAAAABEA}
+\cell }{\cell }{\row }
+}
+{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1134         \{\par
+1135             {\cf20 // macro traits}\par
+1136 \par
+1137             is_warn    = 1,\par
+1138             is_check   = 2,\par
+1139             is_require = 4,\par
+1140 \par
+1141             is_throws    = 8,\par
+1142             is_throws_as = 16,\par
+1143             is_nothrow   = 32,\par
+1144 \par
+1145             is_fast  = 64, {\cf20 // not checked anywhere - used just to distinguish the types}\par
+1146             is_false = 128,\par
+1147             is_unary = 256,\par
+1148 \par
+1149             is_eq = 512,\par
+1150             is_ne = 1024,\par
+1151 \par
+1152             is_lt = 2048,\par
+1153             is_gt = 4096,\par
+1154 \par
+1155             is_ge = 8192,\par
+1156             is_le = 16384,\par
+1157 \par
+1158             {\cf20 // macro types}\par
+1159 \par
+1160             DT_WARN    = is_warn,\par
+1161             DT_CHECK   = is_check,\par
+1162             DT_REQUIRE = is_require,\par
+1163 \par
+1164             DT_WARN_FALSE    = is_false | is_warn,\par
+1165             DT_CHECK_FALSE   = is_false | is_check,\par
+1166             DT_REQUIRE_FALSE = is_false | is_require,\par
+1167 \par
+1168             DT_WARN_THROWS    = is_throws | is_warn,\par
+1169             DT_CHECK_THROWS   = is_throws | is_check,\par
+1170             DT_REQUIRE_THROWS = is_throws | is_require,\par
+1171 \par
+1172             DT_WARN_THROWS_AS    = is_throws_as | is_warn,\par
+1173             DT_CHECK_THROWS_AS   = is_throws_as | is_check,\par
+1174             DT_REQUIRE_THROWS_AS = is_throws_as | is_require,\par
+1175 \par
+1176             DT_WARN_NOTHROW    = is_nothrow | is_warn,\par
+1177             DT_CHECK_NOTHROW   = is_nothrow | is_check,\par
+1178             DT_REQUIRE_NOTHROW = is_nothrow | is_require,\par
+1179 \par
+1180             DT_WARN_EQ    = is_eq | is_warn,\par
+1181             DT_CHECK_EQ   = is_eq | is_check,\par
+1182             DT_REQUIRE_EQ = is_eq | is_require,\par
+1183 \par
+1184             DT_WARN_NE    = is_ne | is_warn,\par
+1185             DT_CHECK_NE   = is_ne | is_check,\par
+1186             DT_REQUIRE_NE = is_ne | is_require,\par
+1187 \par
+1188             DT_WARN_GT    = is_gt | is_warn,\par
+1189             DT_CHECK_GT   = is_gt | is_check,\par
+1190             DT_REQUIRE_GT = is_gt | is_require,\par
+1191 \par
+1192             DT_WARN_LT    = is_lt | is_warn,\par
+1193             DT_CHECK_LT   = is_lt | is_check,\par
+1194             DT_REQUIRE_LT = is_lt | is_require,\par
+1195 \par
+1196             DT_WARN_GE    = is_ge | is_warn,\par
+1197             DT_CHECK_GE   = is_ge | is_check,\par
+1198             DT_REQUIRE_GE = is_ge | is_require,\par
+1199 \par
+1200             DT_WARN_LE    = is_le | is_warn,\par
+1201             DT_CHECK_LE   = is_le | is_check,\par
+1202             DT_REQUIRE_LE = is_le | is_require,\par
+1203 \par
+1204             DT_WARN_UNARY    = is_unary | is_warn,\par
+1205             DT_CHECK_UNARY   = is_unary | is_check,\par
+1206             DT_REQUIRE_UNARY = is_unary | is_require,\par
+1207 \par
+1208             DT_WARN_UNARY_FALSE    = is_false | is_unary | is_warn,\par
+1209             DT_CHECK_UNARY_FALSE   = is_false | is_unary | is_check,\par
+1210             DT_REQUIRE_UNARY_FALSE = is_false | is_unary | is_require,\par
+1211 \par
+1212             DT_FAST_WARN_EQ    = is_fast | is_eq | is_warn,\par
+1213             DT_FAST_CHECK_EQ   = is_fast | is_eq | is_check,\par
+1214             DT_FAST_REQUIRE_EQ = is_fast | is_eq | is_require,\par
+1215 \par
+1216             DT_FAST_WARN_NE    = is_fast | is_ne | is_warn,\par
+1217             DT_FAST_CHECK_NE   = is_fast | is_ne | is_check,\par
+1218             DT_FAST_REQUIRE_NE = is_fast | is_ne | is_require,\par
+1219 \par
+1220             DT_FAST_WARN_GT    = is_fast | is_gt | is_warn,\par
+1221             DT_FAST_CHECK_GT   = is_fast | is_gt | is_check,\par
+1222             DT_FAST_REQUIRE_GT = is_fast | is_gt | is_require,\par
+1223 \par
+1224             DT_FAST_WARN_LT    = is_fast | is_lt | is_warn,\par
+1225             DT_FAST_CHECK_LT   = is_fast | is_lt | is_check,\par
+1226             DT_FAST_REQUIRE_LT = is_fast | is_lt | is_require,\par
+1227 \par
+1228             DT_FAST_WARN_GE    = is_fast | is_ge | is_warn,\par
+1229             DT_FAST_CHECK_GE   = is_fast | is_ge | is_check,\par
+1230             DT_FAST_REQUIRE_GE = is_fast | is_ge | is_require,\par
+1231 \par
+1232             DT_FAST_WARN_LE    = is_fast | is_le | is_warn,\par
+1233             DT_FAST_CHECK_LE   = is_fast | is_le | is_check,\par
+1234             DT_FAST_REQUIRE_LE = is_fast | is_le | is_require,\par
+1235 \par
+1236             DT_FAST_WARN_UNARY    = is_fast | is_unary | is_warn,\par
+1237             DT_FAST_CHECK_UNARY   = is_fast | is_unary | is_check,\par
+1238             DT_FAST_REQUIRE_UNARY = is_fast | is_unary | is_require,\par
+1239 \par
+1240             DT_FAST_WARN_UNARY_FALSE    = is_fast | is_false | is_unary | is_warn,\par
+1241             DT_FAST_CHECK_UNARY_FALSE   = is_fast | is_false | is_unary | is_check,\par
+1242             DT_FAST_REQUIRE_UNARY_FALSE = is_fast | is_false | is_unary | is_require\par
+1243         \};\par
+}
+}
+}
