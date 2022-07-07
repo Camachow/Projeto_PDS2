@@ -1,8 +1,4 @@
-#include "../include/supermercado.h"
 #include "../include/cliente.h"
-#include <iostream>
-
-using namespace std;
 
 Cliente::Cliente(string nome) {
     _nome = nome;
