@@ -3,8 +3,6 @@
 #include "supermercado.h"
 #include "produto.h"
 
-#include <string>
-
 using namespace std;
 
 class Cliente{
@@ -14,8 +12,10 @@ private:
 
 
 public:
-   Cliente(string nome);
-   void comprar_produto(Produto p, Supermercado s, int qtd);
+  Cliente(string nome);
+  void comprar_produto(Produto p, Supermercado *s, int quantidade);
+  void ver_lista_produtos(Supermercado s);
+  void ver_lista_promocional(Supermercado s);
 
 };
 #endif
