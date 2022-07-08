@@ -5,7 +5,7 @@ Cliente::Cliente(string nome) {
 }
 
 void Cliente::comprar_produto(Produto p, Supermercado *s, int quantidade) {
-    s->produto_comprado(quantidade, p.retorna_nome(), p.retorna_preco());
+    s->produto_comprado(quantidade, p);
 }
 
 void Cliente::ver_lista_produtos(Supermercado s) {

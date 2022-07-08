@@ -13,9 +13,7 @@ class Caixa : public Funcionario {
     public:
         Caixa(string nome, int id);
         string emitirNotaFiscal(Supermercado s, Produto p); //emitir a nota fiscal de um produto comprado
-        
-
-         
+    
 };
 
 

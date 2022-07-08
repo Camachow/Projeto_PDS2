@@ -101,35 +101,39 @@ int main(){
          cout<<endl;
          cout<< "Digite quantas unidades quer comprar: ";
          cin>>qnt;
+
          if(prod1.retorna_nome()==produto){
            float gasto= qnt*prod1.retorna_preco();
            cout<<endl;
-           c.comprar_produto(prod1, &epa, qnt);
+           epa.produto_comprado(qnt, prod1);
            cout<< "Compra efetuada!";
            cout<< "Voce gastou "<<gasto<< "reais."<<endl;
+
          }else if(prod2.retorna_nome()==produto){
            float gasto= qnt*prod2.retorna_preco();
            cout<<endl;
-           c.comprar_produto(prod2, &epa, qnt);
+           epa.produto_comprado(qnt, prod2);
            cout<< "Compra efetuada!";
            cout<< "Voce gastou "<<gasto<< "reais."<<endl;
            
          }else if(prod3.retorna_nome()==produto){
            float gasto= qnt*prod3.retorna_preco();
            cout<<endl;
-           c.comprar_produto(prod3, &epa, qnt);
+           epa.produto_comprado(qnt, prod3);
            cout<< "Compra efetuada!";
            cout<< "Voce gastou "<<gasto<< "reais."<<endl;
+
          }else if(prod4.retorna_nome()==produto){
            float gasto= qnt*prod4.retorna_preco();
            cout<<endl;
-           c.comprar_produto(prod4, &epa, qnt);
+           epa.produto_comprado(qnt, prod4);
            cout<< "Compra efetuada!";
            cout<< "Voce gastou "<<gasto<< "reais."<<endl;
+
          }else if(prod5.retorna_nome()==produto){
            float gasto= qnt*prod5.retorna_preco();
            cout<<endl;
-           c.comprar_produto(prod5, &epa, qnt);
+           epa.produto_comprado(qnt, prod5);
            cout<< "Compra efetuada!";
            cout<< "Voce gastou "<<gasto<< "reais."<<endl;
          }

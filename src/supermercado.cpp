@@ -56,26 +56,28 @@ void Supermercado::imprime_lista_promocional(){
     }
 }
 
-int Supermercado::produto_comprado(int qtd, string nome_produto, float preco){
+int Supermercado::produto_comprado(int qtd, Produto p){
   if(_lista_produtos.empty() == false){ 
-    for(auto it=_lista_produtos.begin(); it <=_lista_produtos.end(); it++){
-      if(it->retorna_nome() == nome_produto){
+    for(auto it=_lista_produtos.begin(); it != _lista_produtos.end(); it++){
+      cout<<it->retorna_nome()<<endl;
+      if(it->retorna_nome() == p.retorna_nome()){
         it->decrementa_quantidade(qtd);
         _saldo_caixa += qtd*(it->retorna_preco());
+        cout<<it->retorna_nome()<<endl;
       }
+      
     }
   }
-  if(_lista_promocional.empty() == false){
+  /* if(_lista_promocional.empty() == false){
 
       for(auto it=_lista_promocional.begin(); it <=_lista_promocional.end(); it++){
-      if(it->retorna_nome() == nome_produto){
+      if(it->retorna_nome() == p.retorna_nome()){
         it->decrementa_quantidade(qtd);
         _saldo_caixa += qtd*(it->retorna_preco());
       }
     }
-  }
+  } */
   return 0;
-  
 }// se as listas estiverem vazias, essa funcao nao faz nada
  //se nao tiver esses "if" verificando se elas estao vazias,
  // a funcao pode dar erro

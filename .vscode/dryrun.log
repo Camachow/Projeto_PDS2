@@ -1,25 +1,4 @@
-make.exe --dry-run --always-make --keep-going --print-directory
-make.exe: Entering directory 'c:/Users/Evila/OneDrive/Documentos/PDS2/ProjetoGit/Projeto_PDS2'
- 
-src/funcionario.cpp:1:25: fatal error: funcionario.h: No such file or directory
- #include "funcionario.h"
-                         ^
-compilation terminated.
+make.exe --dry-run --keep-going --print-directory
+'make.exe' n�o � reconhecido como um comando interno
+ou externo, um programa oper�vel ou um arquivo em lotes.
 
-src/produto.cpp:1:31: fatal error: ./include/produto.h: No such file or directory
- #include "./include/produto.h"
-                               ^
-compilation terminated.
-
-src/main.cpp:1:25: fatal error: funcionario.h: No such file or directory
- #include "funcionario.h"
-                         ^
-
-compilation terminated.
-
-g++ -std=c++11 -Wall -o obj/main.o -c src/main.cpp
-g++ -std=c++11 -Wall -o obj/produto.o -c src/produto.cpp
-g++ -std=c++11 -Wall -o obj/funcionario.o -c src/funcionario.cpp
-g++ -std=c++11 -Wall -o Projeto_final obj/main.o obj/produto.o obj/funcionario.o 
-make.exe: Leaving directory 'c:/Users/Evila/OneDrive/Documentos/PDS2/ProjetoGit/Projeto_PDS2'
- 
