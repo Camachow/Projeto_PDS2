@@ -68,15 +68,15 @@ int Supermercado::produto_comprado(int qtd, Produto p){
       
     }
   }
-  /* if(_lista_promocional.empty() == false){
+  if(_lista_promocional.empty() == false){
 
-      for(auto it=_lista_promocional.begin(); it <=_lista_promocional.end(); it++){
+      for(auto it=_lista_promocional.begin(); it != _lista_promocional.end(); it++){
       if(it->retorna_nome() == p.retorna_nome()){
         it->decrementa_quantidade(qtd);
         _saldo_caixa += qtd*(it->retorna_preco());
       }
     }
-  } */
+  }
   return 0;
 }// se as listas estiverem vazias, essa funcao nao faz nada
  //se nao tiver esses "if" verificando se elas estao vazias,
