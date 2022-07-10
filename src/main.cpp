@@ -7,6 +7,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <limits>
 
 int main(){
   string a, b, c, d, e;
@@ -49,6 +50,8 @@ int main(){
   if(aux==1){  //Gerente
     cout<< "Digite seu nome: ";
     cin >> nome_gerente;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n'); //funcao para ignorar o resto de palavras            
+                                                          //que o usuario digitar depois de um \n
     Gerente g=Gerente(nome_gerente, 44, &epa);
      while(loop==1){
       cout << endl<<"O que deseja fazer "<<nome_gerente<< "?";
@@ -76,6 +79,8 @@ int main(){
     }else if(aux==2){ //Cliente
      cout<< "Digite seu nome: ";
      cin >> nome_cliente; 
+     cin.ignore(numeric_limits<streamsize>::max(), '\n'); //funcao para ignorar o resto de palavras            
+                                                          //que o usuario digitar depois de um \n
      Cliente c= Cliente(nome_cliente);  
      while(loop==1){
       cout << endl<<"O que deseja fazer "<<nome_cliente<< "?";
@@ -144,6 +149,8 @@ int main(){
   }else if(aux==3){  //caixa
      cout<< "Digite seu nome: ";
      cin >> nome_caixa; 
+     cin.ignore(numeric_limits<streamsize>::max(), '\n'); //funcao para ignorar o resto de palavras            
+                                                          //que o usuario digitar depois de um \n
      Caixa caixa=Caixa(nome_caixa, 43);
   }
   
