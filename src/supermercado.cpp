@@ -2,10 +2,14 @@
 #include "../include/produto.h"
 #include <vector>
 #include <iostream>
+#include <exception>
 
 using namespace std;
 
 float Supermercado::retorna_saldo_caixa(){
+    if(_saldo_caixa < 0){
+      throw SaldoNegativoException();
+    }
     return _saldo_caixa;
 }
 

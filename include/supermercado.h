@@ -3,8 +3,16 @@
 
 #include <vector> 
 #include "produto.h"
+#include <exception>
 
 using namespace std;
+
+class SaldoNegativoException : public exception {
+  public:
+    const char *what() const noexcept {
+      return "Saldo negativo";
+    }
+};
 
 class Supermercado{
     
