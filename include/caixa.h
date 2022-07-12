@@ -20,4 +20,5 @@ class Caixa : public Funcionario {
       void emitirNotaFiscal(Cliente c); //emitir a nota fiscal de um produto comprado
         
          
-};#endif
+};
+#endif

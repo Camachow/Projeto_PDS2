@@ -1,5 +1,5 @@
-#include "supermercado.h"
-#include "produto.h"
+#include "../include/supermercado.h"
+#include "../include/produto.h"
 #include <vector>
 #include <iostream>
 

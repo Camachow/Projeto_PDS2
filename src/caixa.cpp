@@ -1,6 +1,6 @@
-#include "caixa.h"
-#include "supermercado.h"
-#include "produto.h"
+#include "../include/caixa.h"
+#include "../include/supermercado.h"
+#include "../include/produto.h"
 #include <string>
 #include <iostream>
 using namespace std;
