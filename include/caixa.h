@@ -3,18 +3,21 @@
 #include "funcionario.h"
 #include "produto.h"
 #include "supermercado.h"
+#include "cliente.h"
 
 #include <string>
+#include <list>
 
 using namespace std;
 
 class Caixa : public Funcionario {
 
-    public:
-        Caixa(string nome, int id);
-        string emitirNotaFiscal(Supermercado s, Produto p); //emitir a nota fiscal de um produto comprado
-    
-};
+  private:
+    list<Produto> *_notaFiscal;
 
-
-#endif
+  public:
+      Caixa(string nome, int id);
+      void emitirNotaFiscal(Cliente c); //emitir a nota fiscal de um produto comprado
+        
+         
+};#endif
