@@ -28,7 +28,7 @@ class Supermercado{
       void remove_produto(Produto p);//remove o produto da lista q ele estiver
       void imprime_lista_produtos();
       void imprime_lista_promocional();
-      int produto_comprado(int qtd, Produto p);   //funcao de atualizacao quando algum produto for comprado
+      void produto_comprado(int qtd, Produto p);   //funcao de atualizacao quando algum produto for comprado
       bool prod_comprado();
       void verifica_promocoes(); //verifica produtos acima do max,
                                 //coloca esses na promocao,

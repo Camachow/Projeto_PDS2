@@ -63,13 +63,13 @@ void Supermercado::imprime_lista_promocional(){
 }//imprime os produtos em promocao, mas se nao houver 
  //promocoes, imprime um aviso de que nao ha promocoes
 
-void Supermercado::produto_comprado(int qnt, string nome_produto, float preco){
+void Supermercado::produto_comprado(int qnt, Produto p){
 
 if(_lista_produtos.empty()==false){ 
   
   for(auto it=_lista_produtos.begin(); 
       it!=_lista_produtos.end();it++){
-    if(it->retorna_nome()==nome_produto){
+    if(it->retorna_nome()==p.retorna_nome()){
       it->decrementa_quantidade(qnt);
       _saldo_caixa+= qnt*(it->retorna_preco() );
     }
@@ -80,7 +80,7 @@ if(_lista_promocional.empty()==false){
  
   for(auto it=_lista_promocional.begin();
     it!=_lista_promocional.end(); it++){
-    if(it->retorna_nome()==nome_produto){
+    if(it->retorna_nome()==p.retorna_nome()){
       it->decrementa_quantidade(qnt);
       _saldo_caixa+= qnt*(it->retorna_preco() );
     }

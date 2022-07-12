@@ -21,8 +21,7 @@ void Cliente::ver_lista_promocional(Supermercado s){
 
 void Cliente::comprar_produto(Produto p, Supermercado *s, int quantidade){
 
-s->produto_comprado(quantidade, p.retorna_nome(), 
-p.retorna_preco());
+s->produto_comprado(quantidade, p);
 
 int produto_repetido=0;
   
