@@ -44,4 +44,8 @@ Agora, abra o terminal selecionando a opção "Terminal" do VS Code que está na
 Depois disso, o executável "e-commerce.exe" será gerado, e execute-o no terminal também dando o comando ".\e-commerce.exe" 
 Agora o programa será executado, e faça bom uso dele! :)
 
+No LINUX/WSL: Repita os mesmos passados do tutorial para o Windows e não se esqueça de criar a pasta "obj" também, e por último abra o terminal e de o comando "make" e depois rode o executável digitando "./e-commerce" no terminal como mostrado abaixo"
+![compilar no linux](https://user-images.githubusercontent.com/97178655/179426130-beb8dada-e30f-4144-9221-7973f0b404bd.png)
+
+
 
