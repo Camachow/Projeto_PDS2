@@ -7,10 +7,10 @@
 
 using namespace std;
 
-class SaldoNegativoException : public exception {
+class NumeroInvalidoException : public exception {
   public:
     const char *what() const noexcept {
-      return "Saldo negativo";
+      return "Numero invalido! :(";
     }
 };
 
