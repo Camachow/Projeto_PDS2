@@ -27,3 +27,8 @@ CAIXA
 FUNCIONARIO
 
 -Funcionario é uma superclasse que servirá de herança para a classe caixa e gerente, fazendo essas classes herdarem por exemplo o nome e id.
+
+Como compilar e rodar o programa:
+No Windows - clone o repositório do GitHub e depois abra-o no VS Code, ou na sua IDE preferida! 
+
+![clonar](https://user-images.githubusercontent.com/97178655/179424633-b07bcd3b-463d-41f9-8d16-7d25666638f2.png)
