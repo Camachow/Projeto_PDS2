@@ -103,14 +103,4 @@ void remove_produto(Produto p);
 
 };
 
-#endif;
-      void produto_comprado(int qtd, Produto p);   //funcao de atualizacao quando algum produto for comprado
-      void verifica_promocoes(); //verifica produtos acima do max,
-                                //coloca esses na promocao,
-                                //e retira da promocao se estiver abaixo de 70 unidades
-      void verifica_estoque(); //aumenta para 70 unidades produtos abaixo do MIN
-      int retorna_qtd_produtos(); //retorna a quantidade de produtos na lista
-      int retorna_qtd_promocional(); //retorna a quantidade de produtos na lista de promocional
-};
-
 #endif
