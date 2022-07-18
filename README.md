@@ -12,17 +12,23 @@ GERENTE
 
 -Eu como gerente quero poder adicionar produtos que estão em excesso no estoque a uma "lista promocional", para que eles possam ser vendidos mais rápido.
 
+No sistema, o gerente tem a opção de fazer 4 coisas além de alterar o seu tipo de usuário se desejar: 1- consultar o saldo no caixa do supermercado. 2- ver a quantidade de produtos no estoque. 3- atualizar o estoque. 4- atualizar as promoções.
+
 CLIENTE
 
 -Eu como cliente quero ter acesso a uma lista de produtos e seus preços, para poder escolher e comprar o que for do meu interesse.
 
 -Eu como cliente quero ter acesso a uma lista promocional, para saber quais produtos estão sendo vendidos com preços abaixo do normal.
 
+No sistema, um cliente tem a opção de fazer 3 coisas além de alterar o seu tipo de usuário se desejar: 1- ver lista de produtos. 2- ver lista de produtos em promoção. 3- comprar um produto.
+
 CAIXA
 
 -Eu como caixa quero poder incrementar o valor do lucro atual do supermercado, para atualizar este valor a cada venda de produtos realizada e contabilizada por mim.
 
 -Eu como caixa quero poder emitir uma nota fiscal após cada compra, para entregar ao cliente o "documento" que consta o valor de cada produto comprado, as quantidades e o valor total da compra.
+
+No sistema, o caixa tem a opção de emitir a nota fiscal de um cliente, além de alterar o seu tipo de usuário se desejar.
 
 FUNCIONARIO
 
@@ -37,6 +43,7 @@ No WINDOWS - clone o repositório do GitHub copiando o link do repositório e de
 ![vscode clonar](https://user-images.githubusercontent.com/97178655/179424946-f8f03018-294e-4b7e-a520-80c5ae58ef95.png)
 
 depois disso, crie uma pasta chamada "obj" dentro da pasta do Projeto que você tiver criado, como mostrado na imagem abaixo!
+
 ![pastaobj](https://user-images.githubusercontent.com/97178655/179425083-581206bd-a469-4be1-b0de-d0393b10fd1c.png)
 
 Agora, abra o terminal selecionando a opção "Terminal" do VS Code que está na parte superior centralizada, e no terminal digite "mingw32-make" para que compile os arquivos e gere o executável

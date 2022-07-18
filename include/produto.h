@@ -16,7 +16,7 @@ class Produto {
         bool _promocao;
 
     public:
-        Produto(string nome, int quantidade, float preco);
+        Produto(string nome, int qtd, float preco);
         string retorna_nome();
         float retorna_preco();
         void decrementa_quantidade(int qtd);
