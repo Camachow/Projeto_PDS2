@@ -60,14 +60,16 @@ void Supermercado::imprime_lista_produtos() {
   }
 } 
 
-void Supermercado::imprime_lista_promocional(){
+void Supermercado::imprime_lista_promocional() {
   if(_lista_promocional.empty()==false){
     cout<< "Produtos em promocao: "<< endl;
     for(Produto p: _lista_promocional){
     cout<<p.retorna_nome()<<" " << p.retorna_quantidade()
       << " R$"<< p.retorna_preco()<< endl;
     }
-  }else{
+  }
+  else
+  {
     cout<<endl<<"Nao ha produtos em promocao!"<<endl;
   } 
 }//imprime os produtos em promocao, mas se nao houver 
@@ -75,30 +77,30 @@ void Supermercado::imprime_lista_promocional(){
 
 void Supermercado::produto_comprado(int qnt, Produto p){
 
-if(_lista_produtos.empty()==false){ 
-  
-  for(auto it=_lista_produtos.begin(); 
-      it!=_lista_produtos.end();it++){
-    if(it->retorna_nome()==p.retorna_nome()){
-      it->decrementa_quantidade(qnt);
-      _saldo_caixa+= qnt*(it->retorna_preco() );
+  if(_lista_produtos.empty()==false){ 
+    
+    for(auto it=_lista_produtos.begin(); 
+        it!=_lista_produtos.end();it++){
+      if(it->retorna_nome()==p.retorna_nome()){
+        it->decrementa_quantidade(qnt);
+        _saldo_caixa+= qnt*(it->retorna_preco() );
+      }
     }
+    
   }
+  if(_lista_promocional.empty()==false){
   
-}
-if(_lista_promocional.empty()==false){
- 
-  for(auto it=_lista_promocional.begin();
-    it!=_lista_promocional.end(); it++){
-    if(it->retorna_nome()==p.retorna_nome()){
-      it->decrementa_quantidade(qnt);
-      _saldo_caixa+= qnt*(it->retorna_preco() );
+    for(auto it=_lista_promocional.begin();
+      it!=_lista_promocional.end(); it++){
+      if(it->retorna_nome()==p.retorna_nome()){
+        it->decrementa_quantidade(qnt);
+        _saldo_caixa+= qnt*(it->retorna_preco() );
+      }
     }
-  }
 
-}
-  
-}// se as listas estiverem vazias, essa funcao nao faz nada
+  }
+    
+  }// se as listas estiverem vazias, essa funcao nao faz nada
  //se nao tiver esses "if" verificando se elas estao vazias,
  // a funcao pode dar erro
 
@@ -161,4 +163,8 @@ void Supermercado::verifica_estoque(){
 
 int Supermercado::retorna_qtd_produtos() {
   return _lista_produtos.size();
+}
+
+int Supermercado::retorna_qtd_promocional() {
+  return _lista_promocional.size();
 }
