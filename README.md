@@ -37,6 +37,7 @@ No WINDOWS - clone o repositório do GitHub copiando o link do repositório e de
 ![vscode clonar](https://user-images.githubusercontent.com/97178655/179424946-f8f03018-294e-4b7e-a520-80c5ae58ef95.png)
 
 depois disso, crie uma pasta chamada "obj" dentro da pasta do Projeto que você tiver criado, como mostrado na imagem abaixo!
+
 ![pastaobj](https://user-images.githubusercontent.com/97178655/179425083-581206bd-a469-4be1-b0de-d0393b10fd1c.png)
 
 Agora, abra o terminal selecionando a opção "Terminal" do VS Code que está na parte superior centralizada, e no terminal digite "mingw32-make" para que compile os arquivos e gere o executável
