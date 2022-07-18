@@ -16,6 +16,7 @@ class Produto {
         bool _promocao;
 
     public:
+    
         Produto(string nome, int qtd, float preco);
         string retorna_nome();
         float retorna_preco();
