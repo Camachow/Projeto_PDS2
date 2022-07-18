@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Documentação E-commerce: Referência da Estrutura doctest::detail::StringMakerBase&lt; true &gt;</title>
+<title>E-Commerce: Referência da Estrutura doctest::detail::StringMakerBase&lt; true &gt;</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,8 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Documentação E-commerce<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">E-Commerce<span id="projectnumber">&#160;1</span>
    </div>
+   <div id="projectbrief">Trabalho de PDS2</div>
   </td>
  </tr>
  </tbody>
@@ -107,21 +108,15 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  845</span>                                                            {</div>
-<div class="line"><span class="lineno">  846</span>            std::ostream* s = <a class="code hl_function" href="namespacedoctest_1_1detail.html#a3f1ffd9b794da4a02e8104e59b8c7b31">createStream</a>();</div>
-<div class="line"><span class="lineno">  847</span>            *s &lt;&lt; in;</div>
-<div class="line"><span class="lineno">  848</span>            String result = <a class="code hl_function" href="namespacedoctest_1_1detail.html#ac33f46c159382bbf15a92ede302fda1e">getStreamResult</a>(s);</div>
-<div class="line"><span class="lineno">  849</span>            <a class="code hl_function" href="namespacedoctest_1_1detail.html#a43955f957123ebcee65a1f2f61050d43">freeStream</a>(s);</div>
-<div class="line"><span class="lineno">  850</span>            <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  851</span>        }</div>
-<div class="ttc" id="anamespacedoctest_1_1detail_html_a3f1ffd9b794da4a02e8104e59b8c7b31"><div class="ttname"><a href="namespacedoctest_1_1detail.html#a3f1ffd9b794da4a02e8104e59b8c7b31">doctest::detail::createStream</a></div><div class="ttdeci">DOCTEST_INTERFACE std::ostream * createStream()</div></div>
-<div class="ttc" id="anamespacedoctest_1_1detail_html_a43955f957123ebcee65a1f2f61050d43"><div class="ttname"><a href="namespacedoctest_1_1detail.html#a43955f957123ebcee65a1f2f61050d43">doctest::detail::freeStream</a></div><div class="ttdeci">DOCTEST_INTERFACE void freeStream(std::ostream *)</div></div>
-<div class="ttc" id="anamespacedoctest_1_1detail_html_ac33f46c159382bbf15a92ede302fda1e"><div class="ttname"><a href="namespacedoctest_1_1detail.html#ac33f46c159382bbf15a92ede302fda1e">doctest::detail::getStreamResult</a></div><div class="ttdeci">DOCTEST_INTERFACE String getStreamResult(std::ostream *)</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 1045</span>                                                            {</div>
+<div class="line"><span class="lineno"> 1046</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="namespacedoctest_1_1detail.html#a9b45a266999f027a4f3f96aabf31e06b">toStream</a>(in);</div>
+<div class="line"><span class="lineno"> 1047</span>        }</div>
+<div class="ttc" id="anamespacedoctest_1_1detail_html_a9b45a266999f027a4f3f96aabf31e06b"><div class="ttname"><a href="namespacedoctest_1_1detail.html#a9b45a266999f027a4f3f96aabf31e06b">doctest::detail::toStream</a></div><div class="ttdeci">String toStream(const T &amp;in)</div><div class="ttdef"><b>Definition:</b> doctest.h:1036</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <hr/>A documentação para essa estrutura foi gerada a partir do seguinte arquivo:<ul>
-<li>C:/Users/Camacho_2/Documents/PDSII/Projeto_Final/third_party/<a class="el" href="doctest_8h_source.html">doctest.h</a></li>
+<li>third_party/<a class="el" href="doctest_8h_source.html">doctest.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

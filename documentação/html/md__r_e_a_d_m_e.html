@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Documentação E-commerce: README</title>
+<title>E-Commerce: README</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,8 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Documentação E-commerce<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">E-Commerce<span id="projectnumber">&#160;1</span>
    </div>
+   <div id="projectbrief">Trabalho de PDS2</div>
   </td>
  </tr>
  </tbody>
@@ -72,14 +73,24 @@ $(function() {
 <p >-Eu como gerente quero poder ter acesso ao fluxo de caixa para averiguar quanto capital está entrando no caixa.</p>
 <p >-Eu como gerente quero ter acesso a uma lista com a quantidade de cada produto, afim de saber quais estão em falta e quais estão em excesso.</p>
 <p >-Eu como gerente quero poder adicionar produtos que estão em excesso no estoque a uma "lista promocional", para que eles possam ser vendidos mais rápido.</p>
+<p >No sistema, o gerente tem a opção de fazer 4 coisas além de alterar o seu tipo de usuário se desejar: 1- consultar o saldo no caixa do supermercado. 2- ver a quantidade de produtos no estoque. 3- atualizar o estoque. 4- atualizar as promoções.</p>
 <p >CLIENTE</p>
 <p >-Eu como cliente quero ter acesso a uma lista de produtos e seus preços, para poder escolher e comprar o que for do meu interesse.</p>
 <p >-Eu como cliente quero ter acesso a uma lista promocional, para saber quais produtos estão sendo vendidos com preços abaixo do normal.</p>
+<p >No sistema, um cliente tem a opção de fazer 3 coisas além de alterar o seu tipo de usuário se desejar: 1- ver lista de produtos. 2- ver lista de produtos em promoção. 3- comprar um produto.</p>
 <p >CAIXA</p>
 <p >-Eu como caixa quero poder incrementar o valor do lucro atual do supermercado, para atualizar este valor a cada venda de produtos realizada e contabilizada por mim.</p>
 <p >-Eu como caixa quero poder emitir uma nota fiscal após cada compra, para entregar ao cliente o "documento" que consta o valor de cada produto comprado, as quantidades e o valor total da compra.</p>
+<p >No sistema, o caixa tem a opção de emitir a nota fiscal de um cliente, além de alterar o seu tipo de usuário se desejar.</p>
 <p >FUNCIONARIO</p>
-<p >-<a class="el" href="class_funcionario.html">Funcionario</a> é uma superclasse que servirá de herança para a classe caixa e gerente, fazendo essas classes herdarem por exemplo o nome e id. </p>
+<p >-<a class="el" href="class_funcionario.html">Funcionario</a> é uma superclasse que servirá de herança para a classe caixa e gerente, fazendo essas classes herdarem por exemplo o nome e id.</p>
+<p >COMO COMPILAR E RODAR O PROGRAMA: No WINDOWS - clone o repositório do GitHub copiando o link do repositório e depois cole-o no VS Code como mostrado na imagem abaixo, ou na sua IDE preferida!</p>
+<p ><img src="https://user-images.githubusercontent.com/97178655/179424633-b07bcd3b-463d-41f9-8d16-7d25666638f2.png" alt="clonar" class="inline"/> <img src="https://user-images.githubusercontent.com/97178655/179424946-f8f03018-294e-4b7e-a520-80c5ae58ef95.png" alt="vscode clonar" class="inline"/></p>
+<p >depois disso, crie uma pasta chamada "obj" dentro da pasta do Projeto que você tiver criado, como mostrado na imagem abaixo!</p>
+<p ><img src="https://user-images.githubusercontent.com/97178655/179425083-581206bd-a469-4be1-b0de-d0393b10fd1c.png" alt="pastaobj" class="inline"/></p>
+<p >Agora, abra o terminal selecionando a opção "Terminal" do VS Code que está na parte superior centralizada, e no terminal digite "mingw32-make" para que compile os arquivos e gere o executável <img src="https://user-images.githubusercontent.com/97178655/179425206-ecdc41c5-24b2-4643-a966-faec3c52cf15.png" alt="comando make" class="inline"/> Depois disso, o executável "e-commerce.exe" será gerado, e execute-o no terminal também dando o comando ".\e-commerce.exe" Agora o programa será executado, e faça bom uso dele! :)</p>
+<p >No LINUX/WSL: Repita os mesmos passados do tutorial para o Windows e não se esqueça de criar a pasta "obj" também, e por último abra o terminal e de o comando "make" e depois rode o executável digitando "./e-commerce" no terminal como mostrado abaixo"
+&lt;img src="<a href="https://user-images.githubusercontent.com/97178655/179426130-beb8dada-e30f-4144-9221-7973f0b404bd.png">https://user-images.githubusercontent.com/97178655/179426130-beb8dada-e30f-4144-9221-7973f0b404bd.png</a>" alt="compilar no linux"/&gt; </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->

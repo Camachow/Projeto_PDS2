@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Documentação E-commerce: Referência do &lt;em&gt;Template&lt;/em&gt; da Estrutura doctest::detail::StringMakerBase&lt; C &gt;</title>
+<title>E-Commerce: Referência do &lt;em&gt;Template&lt;/em&gt; da Estrutura doctest::detail::StringMakerBase&lt; C &gt;</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,8 +21,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Documentação E-commerce<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">E-Commerce<span id="projectnumber">&#160;1</span>
    </div>
+   <div id="projectbrief">Trabalho de PDS2</div>
   </td>
  </tr>
  </tbody>
@@ -109,14 +110,18 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  836</span>                                                         {</div>
-<div class="line"><span class="lineno">  837</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;{?}&quot;</span>;</div>
-<div class="line"><span class="lineno">  838</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1012</span>                                                         {</div>
+<div class="line"><span class="lineno"> 1013</span><span class="preprocessor">#ifdef DOCTEST_CONFIG_REQUIRE_STRINGIFICATION_FOR_ALL_USED_TYPES</span></div>
+<div class="line"><span class="lineno"> 1014</span>            <span class="keyword">static_assert</span>(<a class="code hl_variable" href="structdoctest_1_1detail_1_1types_1_1false__type.html#a8580f67f4b223b10e49d93b959767f6d">deferred_false&lt;T&gt;::value</a>, <span class="stringliteral">&quot;No stringification detected for type T. See string conversion manual&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1015</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno"> 1016</span>            <span class="keywordflow">return</span> <span class="stringliteral">&quot;{?}&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1017</span>        }</div>
+<div class="ttc" id="astructdoctest_1_1detail_1_1types_1_1false__type_html_a8580f67f4b223b10e49d93b959767f6d"><div class="ttname"><a href="structdoctest_1_1detail_1_1types_1_1false__type.html#a8580f67f4b223b10e49d93b959767f6d">doctest::detail::types::false_type::value</a></div><div class="ttdeci">static DOCTEST_CONSTEXPR bool value</div><div class="ttdef"><b>Definition:</b> doctest.h:930</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <hr/>A documentação para essa estrutura foi gerada a partir do seguinte arquivo:<ul>
-<li>C:/Users/Camacho_2/Documents/PDSII/Projeto_Final/third_party/<a class="el" href="doctest_8h_source.html">doctest.h</a></li>
+<li>third_party/<a class="el" href="doctest_8h_source.html">doctest.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
