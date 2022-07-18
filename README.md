@@ -55,4 +55,18 @@ No LINUX/WSL: Repita os mesmos passados do tutorial para o Windows e não se esq
 ![compilar no linux](https://user-images.githubusercontent.com/97178655/179426130-beb8dada-e30f-4144-9221-7973f0b404bd.png)
 
 
+UTILIZANDO O PROGRAMA:
+Ao executar o programa, é possível escolher qual tipo de usuário deseja:
+
+1-GERENTE
+Escolhendo ser gerente, o usuário pode: ver o saldo do supermercado, ver os produtos(em promoção ou não)do supermercado com seus preços e quantidades no estoque, atualizar as promoções(colocar produtos acima de 100 unidades na lista promocional com 25% de desconto e/ou retirar da promoção produtos com menos de 70 unidades) e atualizar o estoque(adicionar unidades de produtos que estão abaixo da quantidade mínima, que são 50 unidades).
+Será pedido o nome do usuário quando ele(a) escolher ser gerente e será registrado um gerente para o supermercado com esse nome. Caso altere o tipo de usuário e posteriormente queira ser gerente de novo, será pedido o nome, e se o indivíduo  digitar um nome diferente do nome registrado, o sistema não permitirá que o usuário execute ações de um gerente.
+
+2-CLIENTE 
+Escolhendo ser cliente, o usuário pode: ver uma lista de produtos, ver uma lista somente com produtos em promoção e comprar algum produto. Ao comprar algum produto, deve-se informar a quantidade e o nome do produto, e será mostrado ao final da compra qual foi o valor gasto.
+
+3-CAIXA
+Escolhendo ser caixa, o usuário pode: emitir a nota fiscal de um cliente. Para isso, é necessário algum cliente tenha comprado algum produto. Basta digitar o nome do cliente que deseja emitir a nota fiscal. A nota fiscal consta a quantidade comprada de cada produto, seus preços e o total gasto.
+
+A qualquer momento, é possível trocar o tipo de usuário.
 
