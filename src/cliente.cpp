@@ -12,7 +12,7 @@ string Cliente::retorna_nome(){
 }
 
 void Cliente::ver_lista_produtos(Supermercado s){
-   s.imprime_lista_produtos();
+   return s.imprime_lista_produtos();
 }
 
 void Cliente::ver_lista_promocional(Supermercado s){

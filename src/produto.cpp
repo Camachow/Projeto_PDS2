@@ -1,5 +1,4 @@
 #include "../include/produto.h"
-#include "../include/supermercado.h"
 
 Produto::Produto(string nome, int qtd, float preco){
     _nome = nome;
